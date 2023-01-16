@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 500;
+}
+
+:root{
+    --main : #182443;
+    --footer : #182443f9;
+}
+
+
+.side-bar{
+    width: 250px;
+    background-color: var(--main);
+    padding:  26px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hide{
+display: none;
+
+}
+.wid{
+    width: 90px;
+}
+
+li{
+    padding: 12px 16px;
+}
+li:hover {
+    background-color: #395ebb;
+    border-radius: 8px;
+    padding: 12px 16px;
+
+}
+.search{
+    background-color: #0d1426;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 12px;
+}
+img.dash{
+    fill: red;
+}
+.logo h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+}
+footer{
+    width: 250px;
+    background-color: var(--footer) ;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: 0px -1px 2px 0px rgba(255,255,255,0.1);
+
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.expand{
+    margin-left: 20px;
+}
+footer h3{
+    color: #fff;
+    font-size: 12px;
+
+}
+footer h4{
+    color: rgb(153, 150, 150);
+    font-size: 10px;
+    font-weight: 100;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input:focus{
+outline: none;
+width: 100%;
+}
+
+
+li, li a{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+hr{
+    width: 90%;
+    align-self: center;
+    color: #323848;
+}
+
+
